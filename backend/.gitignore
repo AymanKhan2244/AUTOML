@@ -1,0 +1,32 @@
+# Environment Variables
+.env
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+.webassets-cache
+
+# Local Test Datasets
+frontend/sample_dataset.csv
+
+# Models & Heavy Artifacts
+models/*.pkl
+*.pkl
+static/plots/
+*.png
+
+# IDEs
+.vscode/
+.idea/

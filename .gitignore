@@ -1,0 +1,29 @@
+# Environment Variables
+.env
+*.env
+backend/.env
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Large Model Binaries & Generated Artifacts
+backend/models/*.pkl
+*.pkl
+backend/static/plots/*.png
+*.png
+
+# Flask & OS Files
+instance/
+.webassets-cache
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
